@@ -1,0 +1,110 @@
+.hero {
+    background-image: url(../img/background2.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+/*
+.hero img {
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+
+/*****************************************************
+                     ABOUT
+*****************************************************/
+
+.about {
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #1E9FB4, transparent);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #1E9FB4, transparent);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #1E9FB4, transparent);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #1E9FB4, transparent), url(../img/shisha2.jpg);
+    /* Standard syntax */
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    margin-top: -29px;
+}
+.about h2 {
+    padding-top: 70px;
+}
+.about p {}
+
+/*****************************************************
+                     SERVICES
+*****************************************************/
+
+.services {
+    text-align: center;
+    background-color: #F6F6F6;
+    color: #62646F;
+}
+.services h2 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.services h5 {
+    font-weight: bold;
+}
+.services .fa {
+    font-size: 7em;
+    padding-bottom: 20px;
+    color: #FFB737;
+}
+.services #pad-bottom {
+    margin-bottom: 70px;
+}
+
+/*****************************************************
+                     PORTFOLIO
+*****************************************************/
+
+.pic-portfolio {
+    background-color: #FFB737;
+}
+.pic-portfolio H2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 30px
+}
+.container {
+    padding-bottom: 70px;
+    transition: 1s;
+}
+
+/***********************************************************
+                      FOOTER
+***********************************************************/
+
+.footer {
+    background-color: #1E9FB4;
+    color: white;
+}
+.footer .hollow {
+    border-color: white;
+    color: white
+}
+.footer h6 {
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 1.5em
+}
+.footer h2 {
+    padding-top: 4px;
+}
+.footer h5 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
